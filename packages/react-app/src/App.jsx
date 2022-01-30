@@ -467,7 +467,7 @@ function App(props) {
           onClick={() => {
             faucetTx({
               to: address,
-              value: ethers.utils.parseEther("0.01"),
+              value: ethers.utils.parseEther("1"),
             });
             setFaucetClicked(true);
           }}
@@ -557,10 +557,10 @@ function App(props) {
               <Button
                 type={balanceStaked ? "success" : "primary"}
                 onClick={() => {
-                  tx(writeContracts.Staker.stake({ value: ethers.utils.parseEther("0.5") }));
+                  tx(writeContracts.Staker.stake({ value: ethers.utils.parseEther("0.005") }));
                 }}
               >
-                🥩 Stake 0.5 ether!
+                🥩 Stake 0.005 ether!
               </Button>
             </div>
 
