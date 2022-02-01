@@ -1,4 +1,4 @@
-# 🏗 scaffold-eth | 🏰 BuidlGuidl | cryptovinci
+# 🏗 scaffold-eth | 🏰 BuidlGuidl
 
 ## 🚩 Challenge 0: 🎟 Simple NFT Example 🤓
 
